@@ -1,71 +1,59 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body {
 	font-family: "Montserrat", Arial, Helvetica, sans-serif;
-
+	padding: 90px 20px 0;
 
 }
-
-ul {
-	list-style-type: none;
+.header {
+	background-color: #2c3796;
+	height: 80px;
+	position:fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
 }
-
-nav {
-	float: right;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-	font-family: "Source Sans Pro";
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 24px;
 }
-
-li {
-	display: inline;
-}
-
-main {
-	position: static;
-}
-
-footer {
-	background-color: rgb(51, 48, 48)
-}
-
-h1 {
-	color: #008DB1;
-}
-
-#portada button {
-	width: 120px;
-	height: 32px;
-	padding: 0px 10px 0px 10px;
-	background: #008DB1;
+.navlink {
 	color: #FFFFFF;
-	border-color: #2E1572;
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 12px 12px 12px 12px;
-	font-family: "Montserrat";
+	text-decoration: none;
+}
+.logo {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 30px;
 	font-weight: bold;
-	font-size: 14px;
-	text-align: center;
+	padding: 0 40px;
+	line-height: 80px;
+	text-align: left;
+	font-family: "Montserrat";
+	list-style: none;
 }
-
-header img {
-	float: left;
+.navmenu {
+	list-style: none;
 }
-
-.formulario {
-	text-align: center;
-
+.navmenu {
+	display: flex;
+	margin-right: 40px;
+}
+.nav-menu-item {
+	font-size: 18px;
+	margin: 0 10px;
+	line-height: 80px;
+	width: max-content;
+}
+.navlink {
+	padding: 8px 12px;
+	border-radius: 3pxgit;
 
 }
-
-.cajaformulario {
-	background-color: whitesmoke;
-	height: 260px;
-	width: 260px;
-	padding: 100px;
-	border-color: #333;
-	border-width: 2px;
-	border-style: solid;
+.navlink:hover {
+	background-color: #404ece;
 }

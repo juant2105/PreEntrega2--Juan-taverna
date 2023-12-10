@@ -14,7 +14,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: white;
 	font-family: "Source Sans Pro";
 }
 
@@ -27,7 +27,7 @@ main {
 }
 
 footer {
-	background-color: rgb(51, 48, 48)
+	background-color: white(51, 48, 48)
 }
 
 h1 {
