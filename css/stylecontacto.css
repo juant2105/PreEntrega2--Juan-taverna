@@ -1,0 +1,51 @@
+body {
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: "Source Sans Pro";
+}
+
+li {
+	display: inline;
+}
+
+main {
+	position: static;
+}
+
+footer {
+	background-color: rgb(51, 48, 48)
+}
+
+header img {
+	float: left;
+}
+
+.formulario {
+	text-align: center;
+
+
+}
+
+.cajaformulario {
+	background-color: whitesmoke;
+	height: 260px;
+	width: 260px;
+	padding: 100px;
+	border-color: #333;
+	border-width: 2px;
+	border-style: solid;
+}
