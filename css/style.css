@@ -1,0 +1,71 @@
+body {
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: "Source Sans Pro";
+}
+
+li {
+	display: inline;
+}
+
+main {
+	position: static;
+}
+
+footer {
+	background-color: rgb(51, 48, 48)
+}
+
+h1 {
+	color: #008DB1;
+}
+
+#portada button {
+	width: 120px;
+	height: 32px;
+	padding: 0px 10px 0px 10px;
+	background: #008DB1;
+	color: #FFFFFF;
+	border-color: #2E1572;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 12px 12px 12px 12px;
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+
+header img {
+	float: left;
+}
+
+.formulario {
+	text-align: center;
+
+
+}
+
+.cajaformulario {
+	background-color: whitesmoke;
+	height: 260px;
+	width: 260px;
+	padding: 100px;
+	border-color: #333;
+	border-width: 2px;
+	border-style: solid;
+}
