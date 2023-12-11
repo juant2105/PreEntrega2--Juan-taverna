@@ -1,0 +1,293 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", Arial, Helvetica, sans-serif;
+	padding: 90px 20px 0;
+
+}
+.header {
+	background-color: #008DB1;
+	height: 80px;
+	position:fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 24px;
+}
+.navlink {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.logo {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 40px;
+	line-height: 80px;
+	text-align: left;
+	font-family: "Montserrat";
+	list-style: none;
+}
+.navmenu {
+	list-style: none;
+}
+.navmenu {
+	display: flex;
+	margin-right: 40px;
+}
+.nav-menu-item {
+	font-size: 18px;
+	margin: 0 10px;
+	line-height: 80px;
+	width: max-content;
+}
+.navlink {
+	padding: 8px 12px;
+	border-radius: 3px;
+
+}
+.navlink:hover {
+	background-color: #404ece;
+	
+}
+.hamburguesa{
+	color: white;
+	background: none;
+	border: none;
+	font-size: 30px;
+	padding: 0 20;
+	line-height: 60px;
+	display: none;
+}
+@media (max-width: 768px) {
+	body {
+		font-family: "Montserrat", Arial, Helvetica, sans-serif;
+		padding-top: 70px;
+	
+	}
+	.header {
+		background-color: #008DB1;
+		height: 60px;
+		position:fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+	.logo {
+		color: #FFFFFF;
+		text-decoration: none;
+		font-size: 25px;
+		font-weight: bold;
+		padding: 0 20px;
+		line-height: 60px;
+		text-align: left;
+		font-family: "Montserrat";
+		list-style: none;
+	}
+	.navmenu {
+		list-style: none;
+	}
+	.navmenu {
+		flex-direction: column;
+		align-items: center;
+		margin-right: 20px;
+		background-color: rgb(51, 50, 50);
+		position: fixed;
+		left: 0;
+		top: 60px;
+		width: 100%;
+		padding: 20px 0;
+		height: calc(100% - 60px);
+		overflow-y: auto;
+		left: 100%;
+		transition: left 0,3s;
+	}
+	.nav-menu-item {
+		line-height: 70px;
+	}
+		li
+	.navlink {
+		padding: 8px 12px;
+		border-radius: 3px;
+	}
+	.navlink:hover,
+    .navlink_active {
+	background-color: #404ece;
+	transition: 0.5s
+	}
+	.hamburguesa {
+		display: block;
+	}
+	.navmenu_visible {
+		left: 0;
+	}
+}
+
+ .portada {
+	display:flex;
+	justify-content: left;
+	height: 400px;
+	width: ;
+ }
+.planes {
+	width: 130px;
+    height: 32px;
+    padding: 0px 10px 0px 10px;
+    background: #008DB1;
+	margin: 190px;
+	margin-left: 0;
+    color: #FFFFFF;
+    border-style: solid;
+    border-radius: 30px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+} 
+ 
+ .titulo {
+	width: 266px;
+    height: 128px;
+    color: #008DB1;
+    font-family: "Poppins";
+	margin: 140px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.28;
+    letter-spacing: -0.5px;
+    text-align: left;
+	}
+.parrafoh {
+	text-align: center;
+}
+.caja1 ul{
+	list-style: none;
+}
+.precio{
+	font-size: 38px	;
+	
+}
+.caja1 {
+	width: 281px;
+	text-align: center;
+	list-style: none;
+    height: 522px;
+    padding: 8px 8px 8px 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 1px 1px 1px 1px;
+	
+
+
+	
+}
+.caja1 ul li {
+	text-align: left;
+}
+.cajas {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	
+}
+@media (max-width: 768px) {
+	body {
+		font-family: "Montserrat", Arial, Helvetica, sans-serif;
+		padding-top: 70px;
+	
+	}
+	.header {
+		background-color: #008DB1;
+		height: 60px;
+		position:fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+	.logo {
+		color: #FFFFFF;
+		text-decoration: none;
+		font-size: 25px;
+		font-weight: bold;
+		padding: 0 20px;
+		line-height: 60px;
+		text-align: left;
+		font-family: "Montserrat";
+		list-style: none;
+	}
+	.navmenu {
+		list-style: none;
+	}
+	.navmenu {
+		flex-direction: column;
+		align-items: center;
+		margin-right: 20px;
+		background-color: rgb(51, 50, 50);
+		position: fixed;
+		left: 0;
+		top: 60px;
+		width: 100%;
+		padding: 20px 0;
+		height: calc(100% - 60px);
+		overflow-y: auto;
+		left: 100%;
+		transition: left 0,3s;
+	}
+	.nav-menu-item {
+		line-height: 70px;
+	}
+		li
+	.navlink {
+		padding: 8px 12px;
+		border-radius: 3px;
+	}
+	.navlink:hover,
+    .navlink_active {
+	background-color: #404ece;
+	transition: 0.5s
+	}
+	.hamburguesa {
+		display: block;
+	}
+	.navmenu_visible {
+		left: 0;
+	}
+}
+
+footer
+{
+	background-color: #24262b;
+	padding: 80px 0;
+	display: flex;
+	flex: wrap;
+	
+
+}
+footer ul {
+	list-style: none;
+}
+
+
+.linksfooter {
+	display: flex;
+	margin-left: 40px;
+	padding: 0 60px;
+
+}
+.redes {
+	display: flex;
+	height: 10px;
+	justify-content: right;
+	align-items:end;
+}
