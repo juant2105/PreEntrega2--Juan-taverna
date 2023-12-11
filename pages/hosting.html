@@ -6,42 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hosting</title>
     <link rel="stylesheet" href="../css/stylehosting.css">
+    <script src="https://kit.fontawesome.com/3e780137fc.js" crossorigin="anonymous"></script>
+    <script defer src="../js/index.jsgi""></script>
 
 </head>
 
 <body>
 
-    <header>
-
+    <header class="header">
         <nav class="navbar">
-            <img src="../img/logo.jpg" alt="Logo de J-Host" height="70px">
-            <h2>J-Host</h2>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="hosting.html">Hosting</a></li>
-                <li><a href="dominios.html">Dominios</a></li>
-                <li><a href="ssl.html">SSL</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+            <button class="hamburguesa">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="#" class="logo">J-Host</a>
+            <ul class="navmenu">
+                <li class="nav-menu-item"><a href="../index.html" class="navlink">Inicio</a></li>
+                <li class="nav-menu-item"><a href="hosting.html" class="navlink">Hosting</a></li>
+                <li class="nav-menu-item"><a href="dominios.html" class="navlink">Dominios</a></li>
+                <li class="nav-menu-item"><a href="ssl.html" class="navlink">SSL</a></li>
+                <li class="nav-menu-item"><a href="contacto.html" class="navlink">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <section id="portada">
-            <h1>Hosting web
-                rápido y seguro</h1>
-            <button>Ver planes</button>
+        <section class="portada">
+            <h1 class="titulo">Hosting web
+                desde $999 /mes</h1>
+            <button class="planes">Ver planes</button>
         </section>
 
         <section>
-            <h2>En Pesos Argentinos,<strong>sin impuesto país</strong> </h2>
-            <h2>Comprá tu plan de hosting web</h2>
+            <h2 class="parrafoh">En Pesos Argentinos,<strong>sin impuesto país</strong> Comprá tu plan de hosting web</h2>
+    
         </section>
-        <section>
-                <article>
+        <section class="planes2">
+            <div class="cajas">
+                <article class="caja1">
                     <h3>Single</h3>
                     <p>Plan perfecto para sitios web personales</p>
+                    <p class="precio"> $999 /mes</p>
                     <button>Añadir al carro</button>
                     <ul>
                         <li>✅50GB de almacenamiento SSD </li>
@@ -53,9 +58,10 @@
                     </ul>
                     <a href="">Ver todas las caracteristicas</a>
                 </article>
-                <article>
+                <article class="caja1">
                     <h3>Emprendedor</h3>
                     <p>Plan perfecto para pequeños negocios</p>
+                    <p class="precio"> $1799 /mes</p>
                     <button>Añadir al carro</button>
                     <ul>
                         <li>✅100GB de almacenamiento SSD</li>
@@ -67,9 +73,10 @@
                     </ul>
                     <a href="">Ver todas las caracteristicas</a>
                 </article>
-                <article>
+                <article class="caja1">
                     <h3>Empresa</h3>
                     <p>Plan perfecto para negocios en expansión</p>
+                    <p class="precio"> $2499 /mes</p>
                     <button>Añadir al carro</button>
                     <ul>
                         <li>✅200GB de almacenamiento SSD</li>
@@ -82,6 +89,7 @@
                     <a href="">Ver todas las caracteristicas</a>
 
                 </article>
+                </div>
             </section>
 
     </main>
