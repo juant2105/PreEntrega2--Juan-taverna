@@ -57,3 +57,7 @@ body {
 .navlink:hover {
 	background-color: #404ece;
 }
+
+@media screen and (max-widht: 578px) {
+	
+}
